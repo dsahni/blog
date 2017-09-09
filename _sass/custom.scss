@@ -1,0 +1,53 @@
+/*- Custom style -*/
+
+// -- Put custom style under this point -- //
+/* Style all font awesome icons */
+// .fa {
+//     padding: 10px;
+//     font-size: 30px;
+//     width: 30px;
+//     text-align: center;
+//     text-decoration: none;
+//     border-radius: 50%;
+// }
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin:hover {
+    color: #007bb5 !important;
+}
+
+.fa-twitter:hover {
+    color: #55ACEE !important;
+}
+
+.fa-instagram:hover {
+  color: #125688 !important;
+}
+
+.fa-flickr:hover {
+  color: #f40083 !important;
+}
+
+// ul.share-buttons{
+//   list-style: none;
+//   padding: 0;
+// }
+//
+// ul.share-buttons li{
+//   float: left;
+// }
+//
+// ul.share-buttons .sr-only{
+//   position: absolute;
+//   clip: rect(1px 1px 1px 1px);
+//   clip: rect(1px, 1px, 1px, 1px);
+//   padding: 0;
+//   border: 0;
+//   height: 1px;
+//   width: 1px;
+//   overflow: hidden;
+// }

@@ -1,0 +1,39 @@
+# Site settings
+title: Dhruv's Blog | Thought, ideas and inspirations
+description: "My personal blog. All thoughts are my own - you can't tell me what to do!"
+url: "http://www.sahni.info/blog"
+author:
+  name: "Dhruv Sahni"
+  email: "dhruv@sahni.info"
+  url: "https://sahni.info"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
